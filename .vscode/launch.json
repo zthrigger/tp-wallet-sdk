@@ -1,0 +1,401 @@
+{
+    "configurations": [
+                {
+            "configurations": [
+                {
+                    "type": "msedge",
+                    "name": "Launch with Custom URL",
+                    "request": "launch",
+                    "url": "http://localhost:3000", // Replace with your development server URL
+                    "runtimeArgs": [
+                        "--remote-debugging-port=9222"
+                    ],
+                    "presentation": {
+                        "hidden": false
+                    }
+                },
+                {
+                    "type": "msedge",
+                    "name": "Launch Local Web App",
+                    "request": "launch",
+                    "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+                    "runtimeArgs": [
+                        "--remote-debugging-port=9222"
+                    ],
+                    "presentation": {
+                        "hidden": false
+                    }
+                },
+                {
+                    "type": "msedge",
+                    "name": "Launch Microsoft Edge",
+                    "request": "launch",
+                    "runtimeArgs": [
+                        "--remote-debugging-port=9222"
+                    ],
+                    "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                    "presentation": {
+                        "hidden": true
+                    }
+                },
+                {
+                    "type": "msedge",
+                    "name": "Launch Microsoft Edge in headless mode",
+                    "request": "launch",
+                    "runtimeArgs": [
+                        "--headless",
+                        "--remote-debugging-port=9222"
+                    ],
+                    "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                    "presentation": {
+                        "hidden": true
+                    }
+                },
+                {
+                    "type": "vscode-edge-devtools.debug",
+                    "name": "Open Edge DevTools",
+                    "request": "attach",
+                    "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                    "presentation": {
+                        "hidden": true
+                    }
+                }
+            ],
+            // Removed invalid compounds property
+        }
+                                {
+                    "version": "0.2.0",
+                    "configurations": [
+                        {
+                            "type": "msedge",
+                            "name": "Launch with Custom URL",
+                            "request": "launch",
+                            "url": "http://localhost:3000", // Replace with your development server URL
+                            "runtimeArgs": [
+                                "--remote-debugging-port=9222"
+                            ],
+                            "presentation": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "type": "msedge",
+                            "name": "Launch Local Web App",
+                            "request": "launch",
+                            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+                            "runtimeArgs": [
+                                "--remote-debugging-port=9222"
+                            ],
+                            "presentation": {
+                                "hidden": false
+                            }
+                        },
+                        {
+                            "type": "msedge",
+                            "name": "Launch Microsoft Edge",
+                            "request": "launch",
+                            "runtimeArgs": [
+                                "--remote-debugging-port=9222"
+                            ],
+                            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                            "presentation": {
+                                "hidden": true
+                            }
+                        },
+                        {
+                            "type": "msedge",
+                            "name": "Launch Microsoft Edge in headless mode",
+                            "request": "launch",
+                            "runtimeArgs": [
+                                "--headless",
+                                "--remote-debugging-port=9222"
+                            ],
+                            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                            "presentation": {
+                                "hidden": true
+                            }
+                        },
+                        {
+                            "type": "vscode-edge-devtools.debug",
+                            "name": "Open Edge DevTools",
+                            "request": "attach",
+                            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's URL to finish configuring
+                            "presentation": {
+                                "hidden": true
+                            }
+                        }
+                    ],
+                    "compounds": [
+                        {
+                            "name": "Launch Edge Headless and attach DevTools",
+                            "configurations": [
+                                "Launch Microsoft Edge in headless mode",
+                                "Open Edge DevTools"
+                            ]
+                        },
+                        {
+                            "name": "Launch Edge and attach DevTools",
+                            "configurations": [
+                                "Launch Microsoft Edge",
+                                "Open Edge DevTools"
+                            ]
+                        }
+                    ]
+                }
+            "configurations": [
+                // ...existing configurations...
+                {
+                    "type": "msedge",
+                    "name": "Launch with Custom URL",
+                    "request": "launch",
+                    "url": "http://localhost:3000",
+                    "runtimeArgs": [
+                        "--remote-debugging-port=9222"
+                    ],
+                    "presentation": {
+                        "hidden": false
+                    }
+                }
+            ],
+            "compounds": [
+                // ...existing compounds...
+            ]
+        }
+                {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+            // Removed redundant compounds property
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }        {
+            "type": "msedge",
+            "name": "Launch Local Web App",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html", // Adjust the path to your local file
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "presentation": {
+                "hidden": false
+            }
+        }
+        {
+            "type": "msedge",
+            "name": "Launch Microsoft Edge",
+            "request": "launch",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "msedge",
+            "name": "Launch Microsoft Edge in headless mode",
+            "request": "launch",
+            "runtimeArgs": [
+                "--headless",
+                "--remote-debugging-port=9222"
+            ],
+            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+            "presentation": {
+                "hidden": true
+            }
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "name": "Open Edge DevTools",
+            "request": "attach",
+            "url": "c:\\Users\\zthim\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+            "presentation": {
+                "hidden": true
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch Edge Headless and attach DevTools",
+            "configurations": [
+                "Launch Microsoft Edge in headless mode",
+                "Open Edge DevTools"
+            ]
+        },
+        {
+            "name": "Launch Edge and attach DevTools",
+            "configurations": [
+                "Launch Microsoft Edge",
+                "Open Edge DevTools"
+            ]
+        }
+    ]
+}
